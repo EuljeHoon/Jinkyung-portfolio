@@ -2,11 +2,11 @@
 
 A portfolio built with Next.js 15, featuring dynamic artwork filtering, AWS S3 integration, and Cloudflare Pages deployment.
 
-## 🏗️ Project Overview
+## Project Overview
 
 The artwork collection is displayed in this project, which is a full-stack art gallery application. It was constructed using contemporary web technologies and has responsive design, sophisticated filtering, and picture distribution via AWS S3.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Framework**: Next.js 15.3.4 (App Router)
@@ -26,7 +26,7 @@ The artwork collection is displayed in this project, which is a full-stack art g
 - **Linting**: ESLint (Next.js built-in)
 - **Build Tool**: Next.js built-in bundler
 
-## 📁 Project Structure & File Analysis
+## Project Structure & File Analysis
 
 ```
 Jinkyung-portfolio/
@@ -67,7 +67,7 @@ Jinkyung-portfolio/
 └── postcss.config.mjs              # PostCSS configuration
 ```
 
-## 🔧 Key Components Deep Dive
+## Key Components Deep Dive
 
 ### 1. ArtworkGallery.js - Core Gallery Component
 **Location**: `src/components/ArtworkGallery.js`
@@ -148,7 +148,7 @@ https://gallery-soma-assets.s3.ap-northeast-2.amazonaws.com/artwork/Jinkyung+Hu/
 
 **Data Source**: `src/assets/hu_jin_kyung_full_experience.json`
 
-## 🚀 Deployment Architecture
+## Deployment Architecture
 
 ### Cloudflare Pages Deployment
 **Platform**: Cloudflare Pages
@@ -169,7 +169,7 @@ https://gallery-soma-assets.s3.ap-northeast-2.amazonaws.com/artwork/Jinkyung+Hu/
 **Image Optimization**: Disabled (`unoptimized: true`) for static export
 **Remote Patterns**: Configured for AWS S3 domains
 
-## 🔍 Advanced Features Implementation
+## Advanced Features Implementation
 
 ### 1. Filtering System
 **Year Filter**:
@@ -200,7 +200,7 @@ https://gallery-soma-assets.s3.ap-northeast-2.amazonaws.com/artwork/Jinkyung+Hu/
 - Click outside to close
 - Responsive design
 
-## 🛠️ Development Workflow
+## Development Workflow
 
 ### Local Development
 ```bash
@@ -230,7 +230,7 @@ npm run lint
 2. Update artwork URLs in `artworks.json`
 3. Deploy to Cloudflare Pages
 
-## 🔧 Configuration Files
+## Configuration Files
 
 ### next.config.ts
 ```typescript
@@ -266,7 +266,7 @@ const nextConfig = {
 }
 ```
 
-## 🐛 Known Issues & Solutions
+## Known Issues & Solutions
 
 ### 1. Image Loading Issues
 **Problem**: Some S3 images fail to load
